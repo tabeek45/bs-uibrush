@@ -1,0 +1,146 @@
+.slider{
+background: url(../images/topcontainer.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+position: relative;
+text-align: center;
+height: 100vh;
+}
+.slider-content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+}
+.slider-content h1{
+color: #fff;
+font-weight: 900;
+text-transform: uppercase;
+}
+.btn-custom{
+	background: #3AC9D9;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 0;
+	border:1px solid  #3AC9D9;
+	transition: all 0.6s ease;
+}
+.btn-custom:hover{
+	background: #fff;
+	color: #3AC9D9;
+}
+.navbar-default{
+    background-color: transparent;
+    border-color: transparent;
+}
+.navbar-default .navbar-brand{
+	color: #3AC9D9;
+	font-size: 25px;
+	font-weight: 900;
+}
+.navbar-default .navbar-brand:hover{
+	color: #3AC9D9;
+	font-size: 25px;
+}
+.navbar-default .navbar-brand span{
+	color: #fff;
+}
+.aboutus-section{
+	padding: 70px 0;
+}
+
+.heading{
+	margin-bottom: 20px;
+}
+.heading h2{
+	text-transform: uppercase;
+}
+.about-us h3{
+	position: relative;
+}
+
+.about-us h3:after{
+	position: absolute;
+	content: "";
+	width: 0px;
+	height: 5px;
+	background:#3AC9D9;
+	left: 0;
+	bottom: -7px; 
+}
+.aboutus-section:hover .about-us h3:after{
+	width: 170px;
+	transition: all 0.6s ease;
+}
+
+.heading p{
+	max-width: 650px;
+	margin: 0 auto;
+}
+.portfolio{
+	margin-bottom: 30px;
+	overflow: hidden;	
+}
+ 
+.portfolio-section{
+	padding: 70px 0;
+	background: #f4f4f4;
+}
+.portfolio-img{
+	position: relative;
+}
+.btn-hover{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	color: #D5D8DC;
+	border:1px solid #fff;
+	border-radius: 0;
+	text-transform: uppercase;
+	opacity: 0;
+}
+.btn-hover:hover{
+	background: #5D6D7E;
+	color:#D5D8DC;
+	opacity:0.4;
+ }
+
+
+
+ .portfolio-img:hover .btn-hover{
+ 	opacity: 1;
+ }
+.services{
+	padding: 30px 0;
+	background: #FFFFFF;
+}
+.services h1{
+	text-transform: uppercase;
+	font-weight: 700;
+}
+.services .btn-custom{
+	text-transform: uppercase;
+	background: #3E3D3E;
+	border-radius: 0;
+}
+.contact{
+	padding: 75px 0;
+}
+
+.btn-custom1{
+	background: #3AC9D9;
+	color: #fff;
+	text-transform: uppercase;
+	border-radius: 0;
+	border:1px solid  #3AC9D9;
+	transition: all 0.6s ease;
+}
+.btn-custom1:hover{
+	background: #fff;
+	color: #3AC9D9;
+}	
